@@ -1,5 +1,5 @@
 # 2024-python-ks
 2024 ks for study
-# test title
-## second title
-### third title
+# :sparkles: test title :sparkles:
+## :rocket: second title :rocket:
+### :fire: third title :fire:
