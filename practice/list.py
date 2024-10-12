@@ -38,3 +38,12 @@ print(h)
 print(len(a))
 print(len(b))
 print(len(b[0]))
+
+print("========================")
+
+text = "ksschool10511lsj"
+print(text[5])
+print(text[1:])
+
+text.replace("k",  "r",  1)
+print(text)
