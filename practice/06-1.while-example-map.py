@@ -22,4 +22,4 @@ if a == "LEFT":
 if a == "RIGHT":
   x = x + 1
   y = y
-  print(x,y)
+  print(x,y).
