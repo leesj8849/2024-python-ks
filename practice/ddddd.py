@@ -1,12 +1,18 @@
+inventory = {}
+#사용자 모드
 
-#자판기에서 가져야 할 내용
-#음료수 이름 ~~~
+if not inventory :
+    print("X")
+elif inventory :
+    answer = input("선택")
+    if inventory.key == answer:
+        print("O")
+    else:
+        print("X")
 
-#1 사용자모드
-#남아있는 음료가 있으면~
-#사용자 입력을 받는다
-#해당하는 음료가 없으면~
-
-#2. 관리자 모드
-
-
+#관리자 모드
+c = input("입력")
+if c in inventory:
+    print()
+elif not c in inventory:
+    print()
