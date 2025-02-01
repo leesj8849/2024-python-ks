@@ -1,6 +1,16 @@
 inventory = {}
 #사용자 모드
 
+#남아있는 음료 확인
+#사용자 입력 받기
+
+#관리자 모드
+
+#음료 관리
+
+inventory = {}
+#사용자 모드
+
 if not inventory :
     print("X")
 elif inventory :
