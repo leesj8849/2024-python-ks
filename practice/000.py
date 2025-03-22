@@ -54,3 +54,22 @@ if a == "아이스코코아":
     add_ice()
     add_milk()
     add_cocoa()
+
+def calculate_payment(drinks, quantity):
+
+    prices = {
+        '커피': 2000,
+        '차': 1500,
+        '주스': 2500,
+        '물': 1000
+    }
+
+    if quantity >= 1 and drinks in prices:
+        total_price = prices[drinks] * quantity
+        print(f'{drinks} {quantity}개에 대한 총 금액은 {total_price}원입니다.')
+    else:
+        print('음료 또는 수량이 유효하지 않습니다.')
+
+
+calculate_payment('커피', 2)
+calculate_payment('주스', 0)
